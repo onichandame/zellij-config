@@ -9,8 +9,9 @@ layout {
             }
         }
         pane size="30%" name="side panel"{
-            pane command="bmon"
-            pane command="htop"
+          pane size="12" command="bmon"
+          pane size="12" command="htop"
+          pane name="git tree" command="tig"
         }
     }
     pane size=2 borderless=true{
