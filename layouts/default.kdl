@@ -3,12 +3,12 @@ layout {
         plugin location="zellij:tab-bar"
     }
     pane split_direction="vertical"{
-        pane size="70%" name="workspace"{
+        pane size="65%" name="workspace"{
             pane name="editor" focus=true command="bash"{
               args "-i" "-c" "nvim"
             }
         }
-        pane size="30%" name="side panel"{
+        pane size="35%" name="side panel"{
           pane size="12" command="bmon"
           pane size="12" command="htop"
           pane name="git tree" command="tig"
